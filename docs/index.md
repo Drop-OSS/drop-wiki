@@ -14,11 +14,11 @@ hero:
       link: /guides/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Open-source
+    details: Drop is open source software! We're under the AGPL-3.0 license.
+  - title: Self-hosted
+    details: Drop is designed to be self hosted! These docs, and Docker make that possible.
+  - title: Cross-platform
+    details: Drop has first class support for both Linux & Windows!
 ---
 
