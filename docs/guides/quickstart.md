@@ -1,9 +1,10 @@
 # Quickstart
-This guide quickly runs through how to get set up with Drop in about five minutes, depending on your experience. 
+
+This guide quickly runs through how to get set up with Drop in about five minutes, depending on your experience.
 
 ## Setting up the instance
 
-The easiest way to get Drop running is using our pre-built Docker container. 
+The easiest way to get Drop running is using our pre-built Docker container.
 
 ```yaml compose.yaml
 services:
@@ -12,7 +13,7 @@ services:
     ports:
       - 5432:5432
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready", "-d", "postgres"]
+      test: pg_isready -d drop -U drop
       interval: 30s
       timeout: 60s
       retries: 5
@@ -48,7 +49,6 @@ services:
 2. `./certs` is where Drop will store cryptographic certificates relating to the function of Drop end clients and the connections between them. In order to make sure the traffic isn't being snooped on, keep this directory safe.
 3. `./objects` is where Drop will store uploaded & downloaded files (from metadata providers)
 
-
 **In addition, configure your chosen metadata provider:**
 
 - [GiantBomb](/metadata/giantbomb.md) (only one supported as of v0.1.0-beta)
@@ -65,4 +65,4 @@ To set up a client, your Drop instance will have to be accessible from it. See [
 
 First, download the latest client for your platform from [the GitHub releases page](https://github.com/Drop-OSS/drop-app/releases). Then, install it for your platform. If we don't have a binary available for your platform, please create an issue on [the Drop app repository](https://github.com/Drop-OSS/drop-app) and we'll investigate it.
 
-Once installed, open the Drop app for the first time. There is an automated wizard that'll walk you through the steps of signing into your Drop instance. 
+Once installed, open the Drop app for the first time. There is an automated wizard that'll walk you through the steps of signing into your Drop instance.
