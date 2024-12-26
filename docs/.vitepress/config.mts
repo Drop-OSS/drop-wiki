@@ -26,6 +26,8 @@ export default defineConfig({
             text: "Create your admin account",
             link: "/guides/create-admin-account",
           },
+
+          { text: "Troubleshooting", link: "/guides/server-troubleshooting" },
         ],
       },
       {

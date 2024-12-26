@@ -57,6 +57,10 @@ services:
 If you want to, you can generate a more secure PostgreSQL username & password.
 :::
 
+::: warning
+For security reasons, the Drop server and client's times need to be within 30 seconds of each other, otherwise authorization will fail.
+:::
+
 Once your instance is running, [create your admin account](/guides/create-admin-account.md).
 
 ## Setting up a client
