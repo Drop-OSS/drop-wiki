@@ -10,3 +10,7 @@ Add `WEBKIT_DISABLE_DMABUF_RENDERER=1` to the Drop .desktop file:
 ## "Server's and client's time is out of sync..." or HTTP 0
 
 The server and client must be within 30 seconds of each other for security reasons. Drop uses short-lived tokens to authenticate securely, and they are valid for those 30 seconds. If you are the server administrator, please ensure both your server and client have the correct time. If you are a user, please double check your own system before asking your admin.
+
+## Default Apps / Deep Links not registering
+On Windows, it appears that Deep Links are not updating between Drop releases. To resolve this issue, navigate to your Default Apps in
+Settings and press "Reset Default Apps". This will, however, result in resetting all of your default apps.

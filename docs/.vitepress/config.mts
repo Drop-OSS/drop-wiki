@@ -8,6 +8,9 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/drop.svg" }]],
   themeConfig: {
     logo: "/drop.svg",
+    footer: {
+      message: "If you have any suggestions to update this wiki, please submit them on our GitHub",
+    },
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
