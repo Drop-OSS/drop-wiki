@@ -12,7 +12,7 @@ as the connection URL when setting up your Drop client.
 ## Reverse Proxy
 If you are unsure how to set up a reverse proxy, or even what one is, this guide isn't for you. There are far better guides out there, so follow them to set up your reverse proxy.
 
-As of `v0.1.0-beta` there is no special configuration required to run Drop behind a reverse proxy.
+As of `v0.2.0-beta` there is no special configuration required to run Drop behind a reverse proxy.
 
 ## VPN
 If you are unsure how to setup a VPN for remote access, please find and follow a far better guide than this one. 

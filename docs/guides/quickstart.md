@@ -25,7 +25,7 @@ services:
       - POSTGRES_USER=drop
       - POSTGRES_DB=drop
   drop:
-    image: registry.deepcore.dev/drop-oss/drop/main:latest
+    image: decduck/drop-oss:v0.2.0-beta
     depends_on:
       postgres:
         condition: service_healthy
@@ -51,7 +51,7 @@ services:
 
 **In addition, configure your chosen metadata provider:**
 
-- [GiantBomb](/metadata/giantbomb.md) (only one supported as of v0.1.0-beta)
+- [GiantBomb](/metadata/giantbomb.md) (only one supported as of v0.2.0-beta)
 
 ::: tip
 If you want to, you can generate a more secure PostgreSQL username & password.
