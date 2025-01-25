@@ -20,6 +20,7 @@ export default defineConfig({
 
     sidebar: [
       { text: "What is Drop?", link: "/about" },
+      { text: "Roadmap", link: "/roadmap" },
       {
         text: "Admin Guides",
         items: [

@@ -10,8 +10,8 @@ hero:
       text: Quick start
       link: /guides/quickstart
     - theme: alt
-      text: Guides ->
-      link: /guides/
+      text: About ->
+      link: /about/
 
 features:
   - title: Open-source

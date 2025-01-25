@@ -24,7 +24,7 @@ A game distribution service is one that... distributes games. Think of Steam, GO
 Instead however, instead of a massive centralized website, each admin runs their own copy, and adds *their own games* to their own copy of Drop. Also, there's no payment processing, nothing has a price.
 
 ## Platform
-Drop does a lot more than just game distribution. As of `v0.1.0-beta`, a lot hasn't been implemented. But, in future, Drop will be able to handle things such as:
+Drop does a lot more than just game distribution. As of `v0.2.0-beta`, a lot hasn't been implemented. But, in future, Drop will be able to handle things such as:
 
 - Dedicated servers
 - Matchmaking & P2P games
