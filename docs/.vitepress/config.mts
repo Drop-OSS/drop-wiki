@@ -9,7 +9,8 @@ export default defineConfig({
   themeConfig: {
     logo: "/drop.svg",
     footer: {
-      message: "If you have any suggestions to update this wiki, please submit them on our GitHub",
+      message:
+        "If you have any suggestions to update this wiki, please submit them on our GitHub",
     },
 
     // https://vitepress.dev/reference/default-theme-config
@@ -44,6 +45,12 @@ export default defineConfig({
       {
         text: "Metadata",
         items: [{ text: "GiantBomb", link: "/metadata/giantbomb" }],
+      },
+      {
+        text: "Advanced",
+        items: [
+          { text: "Building for other platforms", link: "/advanced/building" },
+        ],
       },
       {
         text: "Documentation",
